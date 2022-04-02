@@ -3,7 +3,34 @@ h1 {
     text-align: center;
   }
 
+img {
+    width: 350px;
+      height: 250px;
+}
+
   p {
       color: lightblue;
   }
 
+  .firsRow {
+      margin: 5px;
+      float: left;
+      width: 200px;
+      text-align: center;
+  }
+
+  .descr {
+      padding: 15px;
+      text-align: center;
+  }
+
+  .box {
+      flex-direction: column;
+      justify-items: center;
+      align-items: center;
+      text-align: center;
+  }
+
+  img:hover {
+      border: 1px solid #999;
+  }
