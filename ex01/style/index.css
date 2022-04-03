@@ -10,11 +10,17 @@ img {
       transition: ease;
 }
 
-img:hover {
-    border: 1px solid #999;
+a:focus img.flexbox-slika {
+    /*border: 1px solid #999;*/
     width: 800px;
     height: 600px;
 }
+
+/*img:hover {
+    border: 1px solid #999;
+    width: 800px;
+    height: 600px;
+}*/
 
   p {
       color: lightblue;
@@ -52,8 +58,8 @@ img:hover {
       width: 310px;
   }
 
-  .flexbox-slika:active {
+  /*.flexbox-slika:active {
     width: 800px;
     height: 600px;
-  }
+  }*/
 
