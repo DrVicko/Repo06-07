@@ -10,10 +10,10 @@ img {
       transition: ease;
 }
 
-.slika:focus {
+img:hover {
+    border: 1px solid #999;
     width: 800px;
     height: 600px;
-    
 }
 
   p {
@@ -28,6 +28,7 @@ img {
       align-content: center;
   }
 
+ 
   .descr {
       padding: 15px;
       text-align: justify;
@@ -51,8 +52,8 @@ img {
       width: 310px;
   }
 
-  img:hover {
-      border: 1px solid #999;
-      width: 800px;
-      height: 600px;
+  .flexbox-slika:active {
+    width: 800px;
+    height: 600px;
   }
+
