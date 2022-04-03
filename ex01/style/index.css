@@ -7,6 +7,13 @@ img {
     width: 350px;
       height: 250px;
       object-fit: cover;
+      transition: ease;
+}
+
+.slika:focus {
+    width: 800px;
+    height: 600px;
+    
 }
 
   p {
@@ -46,4 +53,6 @@ img {
 
   img:hover {
       border: 1px solid #999;
+      width: 800px;
+      height: 600px;
   }
