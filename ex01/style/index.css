@@ -6,29 +6,42 @@ h1 {
 img {
     width: 350px;
       height: 250px;
+      object-fit: cover;
 }
 
   p {
       color: lightblue;
   }
 
-  .firsRow {
+  .flexbox-row {
+      display: flex;
+      justify-content: center;
       margin: 5px;
-      float: left;
-      width: 200px;
       text-align: center;
+      align-content: center;
   }
 
   .descr {
       padding: 15px;
-      text-align: center;
+      text-align: justify;
   }
 
-  .box {
+  .subtitle {
+      text-align: left;
+  }
+
+  .flexbox-box {
+      display: flex;
       flex-direction: column;
       justify-items: center;
       align-items: center;
       text-align: center;
+      padding: 25px;
+      margin: 5px;
+  }
+
+  .text {
+      width: 310px;
   }
 
   img:hover {
